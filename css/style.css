@@ -13,8 +13,8 @@ body{
     background-color: #fdb7f2;
     border: #000000 dotted ;
 }
-.cicalink{
-    
+h1{
+    border-bottom: solid #6e0707;
 }
 .cicalink ul{
     display: flex;
