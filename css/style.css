@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/img/hatter.png);
+    background-size:  250px 200px;
+}
+.c{
+    color: #000000;
+    background-color: #fdb7f2;
+    border: #000000 dotted ;
+}
+.cicalink{
+    
+}
+.cicalink ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: url(/img/paw.png);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cicalink ul li a{
+    
+    text-decoration: none;
+    color: #ffffff;
+    transition: ease-out 1s;
+    border-radius:100000000000rem ;
+    padding: 0.2rem;
+    
+}
+.cicalink ul li a:hover{
+    background: #ffffff;
+    color: #6e0707;
+}
+
+.con-szurke{
+    display: flex;
+    width: 100%;
+   
+}
+.szurke{
+    background-color:#808080;
+    width: 50%;
+    
+    
+}
+.margin1{
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+h2{
+    width: 20rem;
+    z-index: 10;
+    background-color: #fdb7f2;
+    border:outset ;
+}
+.con-szurke img{
+    width: 10rem;
+    height: 10rem;
+    float: left;
+    border: inset ;
+}
+.con-szurke a{
+    color: #808080;
+}
+
+.galeria{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.galeria img{
+  
+    width: 15rem;
+    margin: 1rem;
+
+}
+img{
+    cursor: pointer;
+    opacity: 0.8;
+}
+ img:hover{
+    opacity: 1;
+}
+.nagy-kep{
+    position: relative;
+    width: 100%;
+    transition: all ease-in-out 1s;
+    
+}
+#bezar{
+    color: #ffffff;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#text{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+.big-picture{
+    width: 100%;
+    opacity: 1;
+}
+@media screen and (max-width: 1200px) {
+    .margin1{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+@media screen and (max-width: 990px) {
+    
+    .margin1{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .cicalink ul{
+        display: unset;
+        
+    }
+    .cicalink ul li{
+        margin-left: 1rem;
+    }
+    .cicalink li:nth-last-child(1){
+        list-style: none;
+    }
+    h2{
+        width: auto;
+    }
+    
+    .galeria img{
+        width: 7rem;
+        margin: 0.5rem;
+    
+    }
+    #bezar{
+        font-size: 10vw;
+    }
+}
+@media screen and (max-width: 600px) {
+    .con-szurke{
+        flex-wrap: wrap;
+    }
+
+    .szurke{
+        width: 100%;
+    }
+}
